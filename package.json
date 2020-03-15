@@ -1,0 +1,21 @@
+{
+  "name": "moba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node dist/test/test.js",
+    "build": "tsc src/slat/slat.ts src/test/test.ts --outDir dist",
+    "watch": "echo 'undefined task'"
+  },
+  "keywords": [],
+  "author": "Alexey Lyulenkov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "tsc-watch": "^4.2.3"
+  }
+}
